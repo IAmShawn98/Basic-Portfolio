@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Contact Me | Shawn Luther</title>
+
+    <!-- Global External Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- Page Navigation -->
+    <nav>
+        <a href="index.html"><h1>Shawn Luther</h1></a>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="construction.html">Portfolio</a></li>
+            <li><a id="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content (Contact Form) -->
+    <main>
+        <form enctype="text/plain" action="mailto:shawnluther99@gmail.com?subject=Contact Me | Portfolio Website User" method="POST">
+            <h2>Contact Me</h2>
+            <hr>
+            <p>Have questions about my work? I'd love to hear from you! Contact me by filling out the form below. Any comments are acceptable!</p>
+            <!-- fName (Form; Enter Name) -->
+            <label>Name</label>
+                <div>
+                    <input autocomplete="false"  id="fName" name="fName" type="text" placeholder="John Smith">
+                </div>
+                <!-- fMail (Form; Enter Email) -->
+                <label>Email</label>
+                <div>
+                    <input autocomplete="false" id="fMail" name="fMail" type="email" placeholder="example@gmail.com" required="true">
+                </div>
+                <!-- fMessage (Form; Enter Message) -->
+                <label>Message</label>
+                <div>
+                    <textarea autocomplete="false" id="fMessage" name="fMessage" type="text" required="true" placeholder="You stink, awful website!"></textarea>
+                </div>
+                <!-- Submit Data -->
+                <input type="submit" class="btn-info" value="Submit">
+        </form>
+    </main>
+
+    <!-- Page Footer -->
+    <footer>
+        &copy; A Thing By Shawn 2019
+    </footer>
+</body>
+
+</html>

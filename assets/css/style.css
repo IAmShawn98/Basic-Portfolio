@@ -10,21 +10,37 @@ h2, h3, h4, h5, h6 {
     color: #4aaaa5;
 }
 
-.btn-primary {
-    background-color: #007bff;
+.btn-info {
+    background-color: #4aaaa5;
+    width: 10%;
+    padding: 10px;
+    margin-top: 10px;
     cursor: pointer;
-    border-radius: 6px;
-    padding: 15px;
     color: #ffffff;
     border: none;
+    outline: none;
 }
-.btn-primary:hover {
-    background-color: #001bff;
+
+.btn-info:hover {
+    background-color: #30726f;
+    width: 10%;
+    padding: 10px;
+    margin-top: 10px;
     cursor: pointer;
-    border-radius: 6px;
-    padding: 15px;
     color: #ffffff;
     border: none;
+    outline: none;
+}
+
+.btn-info:focus {
+    background-color: #1d413f;
+    width: 10%;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
 }
 
 ul {
@@ -41,8 +57,14 @@ li {
     font-size: 140%;
 }
 
+#active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #4aaaa5;
+}
 
 /* Link Default */
+
 a {
     list-style-type: none;
     text-decoration: none;
@@ -51,6 +73,7 @@ a {
 }
 
 /* Link Hover */
+
 a:hover {
     text-decoration: underline;
     font-weight: bold;
@@ -58,6 +81,7 @@ a:hover {
 }
 
 /* Anchor Style */
+
 .link {
     list-style-type: none;
     text-decoration: none;
@@ -70,10 +94,13 @@ a:hover {
     apply the content character '|' between our links but NOT after the 
     last child, which in our case, is the 'Contact' tab.
 */
+
 li:not(:last-child):after {
-    opacity: 0.2;  /* Creates a dim transparent effect on our '|' character */
-    color: #acacac; 
-    content: " |"; /* The character we want to append between our nav links */
+    opacity: 0.2;
+    /* Creates a dim transparent effect on our '|' character */
+    color: #acacac;
+    content: " |";
+    /* The character we want to append between our nav links */
 }
 
 /* Nav Logo */
@@ -97,12 +124,14 @@ hr {
 }
 
 /* Navigation */
+
 nav {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
 }
 
 /* Profile Picture */
+
 img {
     margin-right: 18px;
     width: 200px;
@@ -110,17 +139,19 @@ img {
 }
 
 /* Main Content */
+
 main {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     width: 960px;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 20%;
     overflow: hidden;
     padding: 30px;
 }
 
 /* Footer Copyright */
+
 footer {
     position: absolute;
     bottom: 0;
@@ -131,3 +162,33 @@ footer {
     line-height: 80px;
     text-align: center;
 }
+
+/* Contact Form */
+
+/* Faded input labels for input context */
+label {
+    color: #91949b;
+}
+
+/* Form Input Styles */
+input[type=text], input[type=email], textarea {
+    margin-bottom: 10px;
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Height of the message box */
+textarea {
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
