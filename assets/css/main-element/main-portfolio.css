@@ -33,16 +33,6 @@ main {
     top: -95px;
 }
 
-/* Keeps the project labels from going wild
-.projectSection {
-    display:inline-block;
-} */
-
-/* I used the raw 'img' element to zero out the portfolio image before, but it ruined other pages, so now I use this to target my image. */
-/* .pFrame {
-    margin: 0 0 0 0;
-} */
-
 /* Project  */
 .column {
     float: left;
@@ -52,8 +42,3 @@ main {
 .row {
     margin-right: 50%;
 }
-
-
-
-
-
