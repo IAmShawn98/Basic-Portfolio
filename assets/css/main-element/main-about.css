@@ -1,0 +1,18 @@
+/* Main Content */
+main {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    width: 960px;
+    height: 373px;
+    margin-top: 2%;
+    margin-left: 20%;
+    overflow: hidden;
+    padding: 30px;
+}
+
+/* Main Image (of me) */
+img {
+    margin-right: 18px;
+    width: 200px;
+    float: left;
+}

@@ -1,0 +1,54 @@
+/* Main Content */
+main {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    width: 960px;
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 20%;
+    overflow: hidden;
+    padding: 30px;
+}
+
+/* Main Image (of me) */
+img {
+    margin-right: 18px;
+    width: 200px;
+    float: left;
+}
+
+/* Contact Form */
+
+/* Form Input Styles */
+input[type=text], input[type=email], textarea {
+    margin-bottom: 10px;
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Height of the message box */
+textarea {
+    height: 150px;
+}
+
+/* Portfolio Label */
+.caption {
+    position: relative;
+    background-color: #4aaaa5;
+    margin-top: 120px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin-top: 200px;
+    top: -43px;
+}
+
+#images {
+    display:inline-block;
+}
+
+/* The pFrame fixes the margin of my portfolio project images without breaking other images from other pages by explicitly using the 'img' element. */
+#pFrame {
+    margin: 0 0 0 0;
+}

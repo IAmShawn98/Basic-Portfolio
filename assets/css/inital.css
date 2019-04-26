@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('../images/bg.png');
+    padding: 0;
+    margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "Georgia', Times, Times New Roman, serif;";
+    color: #4aaaa5;
+}
+
+hr {
+    border: 1px solid #cccccc;
+}
+
+p {
+    color: #777777;
+    line-height: 200%;
+}
+
+hr {
+    border: 1px solid #cccccc;
+}
+
+/* Faded input labels for input context */
+label {
+    color: #91949b;
+}
+
+.btn-info {
+    background-color: #4aaaa5;
+    width: 10%;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.btn-info:hover {
+    background-color: #30726f;
+    width: 10%;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.btn-info:focus {
+    background-color: #1d413f;
+    width: 10%;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+ul {
+    position: relative;
+    top: -70px;
+    margin-right: 27%;
+    list-style-type: none;
+    float: right;
+    display: flex;
+}
+
+li {
+    padding-right: 10px;
+    font-size: 140%;
+}
+
+#active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+/* Link Default */
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: #acacac;
+}
+
+/* Link Hover */
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+/* Anchor Style */
+
+.link {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+/* 
+    This is our navigation seperator. We use the pseudo element (:after) to 
+    apply the content character '|' between our links but NOT after the 
+    last child, which in our case, is the 'Contact' tab.
+*/
+
+li:not(:last-child):after {
+    opacity: 0.2;
+    /* Creates a dim transparent effect on our '|' character */
+    color: #acacac;
+    content: " |";
+    /* The character we want to append between our nav links */
+}
+
+/* Nav Logo */
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 0;
+    padding: 30px;
+    margin-left: 20%;
+    margin-right: 68%;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
