@@ -49,14 +49,3 @@ label {
     border: none;
     outline: none;
 }
-
-.btn-info:focus {
-    background-color: #1d413f;
-    width: 10%;
-    padding: 10px;
-    margin-top: 10px;
-    cursor: pointer;
-    color: #ffffff;
-    border: none;
-    outline: none;
-}
