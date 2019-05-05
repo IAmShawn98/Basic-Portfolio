@@ -112,7 +112,8 @@
     }
     ul {
         position: relative;
-        top: -70px;
+        top: -96px;
+        left: 45px;
         margin-right: 34%;
         list-style-type: none;
         float: right;
@@ -130,7 +131,6 @@
         position: inherit;
         background-color: #666666;
         border-top: 10px solid #4aaaa5;
-        /* bottom: 11px; */
         width: 100%;
         color: #ffffff;
         line-height: 80px;
