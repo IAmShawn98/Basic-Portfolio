@@ -1,5 +1,5 @@
-
 /* Main Content */
+
 main {
     background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -11,15 +11,15 @@ main {
 }
 
 /* Portfolio Project Images */
+
 .projectImage {
-    margin-right: 0 0 0 0;
     width: 200px;
     height: 150px;
     float: left;
 }
 
-
 /* Portfolio Label */
+
 .caption {
     position: relative;
     background-color: #4aaaa5;
@@ -33,6 +33,7 @@ main {
 }
 
 /* Project  */
+
 .column {
     float: left;
     margin-right: 10px;
